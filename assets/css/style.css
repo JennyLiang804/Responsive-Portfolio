@@ -13,12 +13,12 @@ body {
 }
 
 .header {
-    width: 1000px;
+    width: 100%;
     margin: auto;
     }
 
 .fixed {
-    position: fixed;
+    position: static;
     margin:0;
     text-align: center;
 }
@@ -144,8 +144,8 @@ input[type=submit] {
 }
 
 img{
-    width:400px;
-    height: 300px;
+    width:350px;
+    height: 250px;
 }
 
 .gallery {
@@ -159,10 +159,8 @@ img{
 
 
 .winter-mountain {
-    float: center;
     padding: 18px;
-    height: 100%;
-    margin-top: -45px;
+    margin-top: -10px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -171,8 +169,7 @@ img{
 .elk-pink {
     float: center;
     padding: 18px;
-    height: 100%;
-    margin-top: -45px;
+    margin-top: -10px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -181,8 +178,7 @@ img{
 .elk-snow {
    float: center;
    padding: 18px;
-   height: 100%;
-   margin-top: -45px;
+   margin-top: -10px;
    color: rgb(144, 120, 240);
    text-align: center;
    background: rgb(194, 186, 225);
@@ -191,8 +187,7 @@ img{
 .snow-mountain {
     float: center;
     padding: 18px;
-    height: 100%;
-    margin-top: -45px;
+    margin-top: -10px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
@@ -201,9 +196,16 @@ img{
 .mountain-peak {
     float: center;
     padding: 18px;
-    height: 100%;
-    margin-top: -45px;
+    margin-top: -10px;
     color: white;
     text-align: center;
     background: rgb(194, 186, 225);
 }
+
+/* MEDIA QUERIES */
+
+
+
+
+/*
+`max-width`s: `980px`, `768px` and `640px`
