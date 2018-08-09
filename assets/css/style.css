@@ -110,6 +110,10 @@ h2{
     color: rgb(144, 120, 240);
 }
 
+p{
+    text-indent: 10%;
+}
+
 .content{
     color: grey;
     font-size: 21px;
@@ -216,20 +220,33 @@ input[type=submit]{
 }
 
 @media screen and (max-width:640px){
-.wrapper2, .wrapper3{    
+.wrapper3{    
     padding: 10px;
-    margin-top: 100px;
     max-width: 550px;
     height: 580px;
     }
+.wrapper2{
+    width:550px;
+    height: 1100px;
+    } 
 .wrapper{
-    margin-top:100px;
-    max-width: 330px;
-    height:1550px;
+    max-width: 80%;
+    height:1880px;
     }
 .main-nav{
     overflow: visible;
+    display: flex;
     }     
+.bio-image{
+    width: 100%;
+    height: 80%;
+}
+img{
+    width:140%;
+}
+div.desc{
+    width:135.1%;
+}
 }
 
 
