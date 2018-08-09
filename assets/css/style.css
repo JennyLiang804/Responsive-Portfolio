@@ -48,6 +48,25 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
+h2 {
+    width: 130px;
+    height: 30px;
+    background-color:rgb(194, 186, 225);
+    color: white;
+    text-align: center;
+    font-size:25px;
+    position: relative;
+    animation: mymove 10s infinite;
+}
+
+#div1 {
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
 
 .wrapper {
     padding: 20px;
@@ -106,9 +125,6 @@ hr{
     color: grey;
 }
 
-h2{
-    color: rgb(144, 120, 240);
-}
 
 p{
     text-indent: 10%;
