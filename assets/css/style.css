@@ -54,7 +54,7 @@ body {
     max-width: 960px;
     margin: auto;
     background: white;
-    height: 1200px;
+    height: 1000px;
 }
 
 .wrapper2{
@@ -85,8 +85,11 @@ body {
     background: grey;
     color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 143px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 25px;
     border-top: 8px solid rgb(194, 186, 225);
 }
 
@@ -143,67 +146,83 @@ input[type=submit] {
     border-radius: 4px;
 }
 
-img{
-    width:350px;
-    height: 250px;
+div.desc {
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(220, 213, 247);
+    width:99%;
+    color: white;
+    font-size: 20px;
 }
 
-.gallery {
-    margin: 20px;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-
-.winter-mountain {
-    padding: 18px;
-    margin-top: -10px;
-    color: white;
-    text-align: center;
-    background: rgb(194, 186, 225);
-  }
-
-.elk-pink {
-    float: center;
-    padding: 18px;
-    margin-top: -10px;
-    color: white;
-    text-align: center;
-    background: rgb(194, 186, 225);
-  }
-
-.elk-snow {
-   float: center;
-   padding: 18px;
-   margin-top: -10px;
-   color: rgb(144, 120, 240);
-   text-align: center;
-   background: rgb(194, 186, 225);
-  }
-
-.snow-mountain {
-    float: center;
-    padding: 18px;
-    margin-top: -10px;
-    color: white;
-    text-align: center;
-    background: rgb(194, 186, 225);
-  }
-
-.mountain-peak {
-    float: center;
-    padding: 18px;
-    margin-top: -10px;
-    color: white;
-    text-align: center;
-    background: rgb(194, 186, 225);
+.responsive {
+    padding: 20px;
+    float: left;
+    width: 30%;
 }
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width:980px) {
+.wrapper2, .wrapper3{    
+    padding: 10px;
+    max-width: 650px;
+    height: 620px;
+    }
+
+div.desc{
+    padding:7px;
+    width:101%;
+    }
+h3{
+    font-size: 15px;
+    }
+input[type=submit]{
+    width:15%;
+    }
+}
+
+@media screen and (max-width:768px){
+.wrapper2, .wrapper3{    
+    padding: 10px;
+    max-width: 650px;
+    height: 580px;
+    }
+
+.wrapper{
+    width:680px;
+    height:950px;
+    }
+.responsive{
+    width:fit-content
+    }
+ div.desc{
+     width:95%
+    }
+h3{
+    font-size: 15px;
+    }
+input[type=submit]{
+    width:15%;
+    } 
+}
+
+@media screen and (max-width:640px){
+.wrapper2, .wrapper3{    
+    padding: 10px;
+    margin-top: 100px;
+    max-width: 550px;
+    height: 580px;
+    }
+.wrapper{
+    margin-top:100px;
+    max-width: 330px;
+    height:1550px;
+    }
+.main-nav{
+    overflow: visible;
+    }     
+}
 
 
 
