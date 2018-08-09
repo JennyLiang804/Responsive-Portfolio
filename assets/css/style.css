@@ -85,9 +85,8 @@ body {
     background: grey;
     color: white;
     text-align: center;
-    position: fixed;
-    left:0;
-    bottom: 0;
+    position: static;
+    padding:1px;
     width: 100%;
     margin-top: 25px;
     border-top: 8px solid rgb(194, 186, 225);
@@ -169,10 +168,15 @@ div.desc {
     max-width: 650px;
     height: 620px;
     }
-
+.wrapper{
+    max-width: 70%;
+}
+.responsive{
+    width:fit-content;
+    }
 div.desc{
     padding:7px;
-    width:101%;
+    width:95.4%;
     }
 h3{
     font-size: 15px;
@@ -180,7 +184,11 @@ h3{
 input[type=submit]{
     width:15%;
     }
+.footer{
+    margin-top:75px;
 }
+}
+
 
 @media screen and (max-width:768px){
 .wrapper2, .wrapper3{    
@@ -190,7 +198,7 @@ input[type=submit]{
     }
 
 .wrapper{
-    width:680px;
+   max-width:90%;
     height:950px;
     }
 .responsive{
