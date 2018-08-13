@@ -70,7 +70,7 @@ h2 {
 
 .wrapper {
     padding: 20px;
-    max-width: 960px;
+    max-width: 55%;
     margin: auto;
     background: white;
     height: 1000px;
@@ -78,7 +78,7 @@ h2 {
 
 .wrapper2{
     padding: 20px;
-    max-width: 960px;
+    max-width: 55%;
     margin: auto;
     background: white;
     height: 600px;
@@ -86,7 +86,7 @@ h2 {
 
 .wrapper3{
     padding: 20px;
-    max-width: 960px;
+    max-width: 55%;
     margin: auto;
     background: white;
     height: 700px;
@@ -104,8 +104,9 @@ h2 {
     background: grey;
     color: white;
     text-align: center;
-    position: static;
+    position: fixed;
     padding:1px;
+    bottom: 0;
     width: 100%;
     margin-top: 25px;
     border-top: 8px solid rgb(194, 186, 225);
@@ -136,7 +137,7 @@ p{
 }
 
 input[type=text], select{
-    width: 30%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -145,7 +146,7 @@ input[type=text], select{
 }
 
 textarea[type=text], select{
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -169,7 +170,7 @@ div.desc {
     padding: 8px;
     text-align: center;
     background-color: rgb(220, 213, 247);
-    width:99%;
+    width:68%;
     color: white;
     font-size: 20px;
 }
@@ -177,16 +178,16 @@ div.desc {
 .responsive {
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (max-width:980px) {
 .wrapper2, .wrapper3{    
-    padding: 10px;
-    max-width: 650px;
-    height: 620px;
+    padding: 1%;
+    max-width: 75%;
+    height: 75%;
     }
 .wrapper{
     max-width: 70%;
@@ -213,7 +214,7 @@ input[type=submit]{
 @media screen and (max-width:768px){
 .wrapper2, .wrapper3{    
     padding: 10px;
-    max-width: 650px;
+    max-width: 75%;
     height: 580px;
     }
 
